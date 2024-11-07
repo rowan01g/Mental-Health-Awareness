@@ -42,63 +42,60 @@
 
     
       <!--Header section with Carousel-->
-        <header id="hero">
-            <!-- section with hero image -->
-            <section class="container">
-                <!-- text-center class used to centre all text inside column -->
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <h1 class="display-4 my-4">Wildflower Wellness</h1>
-                        <!-- mb-5 gives extra margin spacing under subheading -->
-                        <h2 class="display-6 mb-5">Healing the Mind and Spirit, Inspired by Nature’s Quiet Strength</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            <strong>Integer nec odio.</strong> Praesent libero. Sed cursus ante dapibus diam. 
-                            <strong>Sed nisi.</strong> Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
-                        </p>
-                        <!-- mb-5 gives extra margin spacing under lead text -->
-                        <p class="lead mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <!-- Bootstrap modal button -->
-                        <button type="button" class="btn btn-primary  sharp-corners custom-button" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
-                            Contact Us
+    <header id="header" class = "container section">
+        <div class="row">
+            <div class="col-12 col-xl-6 text-center text-xl-start">
+                <h1 class="display-3">Wildflower Wellness</h1>
+                    <!-- mb-5 gives extra margin spacing under subheading -->
+                <h2 class="display-6 mb-10">Healing the Mind and Spirit, Inspired by Nature’s Quiet Strength</h2>
+                <p class = "my-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                <strong>Integer nec odio.</strong> Praesent libero. Sed cursus ante dapibus diam. 
+                <strong>Sed nisi.</strong> Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+                </p>
+                <!-- mb-5 gives extra margin spacing under lead text -->
+                <p class="lead mb-10">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                </p>
+                <!-- Bootstrap modal button -->
+                <button type="button" class="btn btn-primary  sharp-corners custom-button" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+                Contact Us
+                </button>
+            </div>
+
+                <!--Carousel-->
+                <div class = "col-12 col-xl-6">
+                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="d-flex justify-content-center">   
+                                    <img src="assets/images_mental_health/brain.webp" class="center-block w-100 h-50" alt="First slide">
+                                </div>         
+                            </div>
+                            <div class="carousel-item">
+                                <div class="d-flex justify-content-center">            
+                                    <img src="assets/images_mental_health/meditation.webp" class="center-block w-100 h-50" alt="Second slide">
+                                </div>         
+                            </div>
+                            
+                            <div class="carousel-item">
+                                <div class="d-flex justify-content-center">        
+                                    <img src="assets/images_mental_health/placeholder.webp" class="center-block w-100 h-50" alt="Third slide">
+                                </div> 
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
                         </button>
                     </div>
-                </div>
-            </section>
-
-            <!--Carousel-->
-            <div class = "col-12 col-xl-6">
-                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="d-flex justify-content-center">   
-                                <img src="assets/images_mental_health/brain.webp" class="center-block w-100 h-50" alt="First slide">
-                            </div>         
-                        </div>
-                        <div class="carousel-item">
-                            <div class="d-flex justify-content-center">            
-                                <img src="assets/images_mental_health/meditation.webp" class="center-block w-100 h-50" alt="Second slide">
-                            </div>         
-                        </div>
-                        
-                        <div class="carousel-item">
-                            <div class="d-flex justify-content-center">        
-                                <img src="assets/images_mental_health/placeholder.webp" class="center-block w-100 h-50" alt="Third slide">
-                            </div> 
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            <div>
-        </header>
+                <div>
+    </header>
     
     
     <main></main>
