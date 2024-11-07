@@ -1,0 +1,13 @@
+/* CSS Variables */
+:root{
+    --primary-font: "Inter", sans-serif;
+    --secondary-font: "Macondo", cursive;
+    --primary-color: #8ef6e4;
+    --secondary-color: #9896f1;
+    --highlight-color: #d59bf6; 
+    --light-highlight-color: #edb1f1; 
+}
+
+#navbar{
+    color: var(--primary-color)
+}
