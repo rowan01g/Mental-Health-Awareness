@@ -11,3 +11,16 @@
 #navbar{
     color: var(--primary-color)
 }
+
+
+.header-custom-bg{
+    background-color: var(--primary-color);
+}
+
+.custom-bg{
+    background-color: var(--highlight-color);
+}
+
+#test{
+    background-color: var(--secondary-color);
+}
