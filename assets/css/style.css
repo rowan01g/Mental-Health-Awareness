@@ -16,3 +16,9 @@
 #test{
     background-color: var(--secondary-color);
 }
+
+.carousel-inner .carousel-item img {
+    max-height: 400px;
+    min-width: auto;
+    object-fit: cover;
+  }
