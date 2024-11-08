@@ -6,19 +6,11 @@
     --secondary-color: #9896f1;
     --highlight-color: #d59bf6; 
     --light-highlight-color: #edb1f1; 
+    --bs-body-bg: #9896f1;
 }
 
 #navbar{
     color: var(--primary-color)
-}
-
-
-.header-custom-bg{
-    background-color: var(--primary-color);
-}
-
-.custom-bg{
-    background-color: var(--highlight-color);
 }
 
 #test{
