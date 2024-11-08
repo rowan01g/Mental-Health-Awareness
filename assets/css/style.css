@@ -18,13 +18,24 @@ h1, h2, h3, p {
   font-family: var(--primary-font);
 }
 
-#navbar{
-    color: var(--primary-color)
+h2 {
+  font-style: italic;
+}
+
+.navbar{
+    background-image: url(../images_mental_health/flower-bg.jpg) !important;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    font-weight: 500;
+    font-size: 1.2em;
+
 }
 
 /*Adjust size of the carousel*/
 .carousel-inner .carousel-item img {
-    max-height: 400px;
+    max-height: 450px;
     min-width: auto;
     object-fit: cover;
   }
@@ -36,6 +47,11 @@ h1, h2, h3, p {
   .carousel-fade .active.carousel-item-start,
   .carousel-fade .active.carousel-item-end {
     transition: opacity 0s 5s;
+  }
+
+  .carousel-caption{
+    font-size: 1.2em;
+    color:black;
   }
 
 /*Style cards of main body
