@@ -55,3 +55,12 @@ h1, h2, h3, p {
   .italic-sub{
     font-style: italic;
   }
+
+  /*Style Footer*/
+
+  .align-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%; /* Ensure the container has a height */
+}
