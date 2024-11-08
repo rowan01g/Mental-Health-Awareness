@@ -38,6 +38,13 @@ h1, h2, h3, p {
     transition: opacity 0s 5s;
   }
 
-  .card-title{
+/*Style cards of main body*/
+.card-body{
+    background-color: var(--highlight-color);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+  .italic-sub{
     font-style: italic;
   }
