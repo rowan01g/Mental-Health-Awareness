@@ -1,7 +1,12 @@
+/*Import google font*/
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
 /* CSS Variables */
 :root{
-    --primary-font: "Inter", sans-serif;
-    --secondary-font: "Macondo", cursive;
+    
+    --primary-font: "Bellota", sans-serif;
+    
     --primary-color: #8ef6e4;
     --secondary-color: #9896f1;
     --highlight-color: #d59bf6; 
@@ -9,16 +14,30 @@
     --bs-body-bg: #9896f1;
 }
 
+h1, h2, h3, p {
+  font-family: var(--primary-font);
+}
+
 #navbar{
     color: var(--primary-color)
 }
 
-#test{
-    background-color: var(--secondary-color);
-}
-
+/*Adjust size of the carousel*/
 .carousel-inner .carousel-item img {
     max-height: 400px;
     min-width: auto;
     object-fit: cover;
+  }
+
+  /*Slow fade in and out of carousel items*/
+  .carousel-item {
+    transition: transform 5s ease-in-out;
+  }
+  .carousel-fade .active.carousel-item-start,
+  .carousel-fade .active.carousel-item-end {
+    transition: opacity 0s 5s;
+  }
+
+  .card-title{
+    font-style: italic;
   }
