@@ -64,3 +64,12 @@ h1, h2, h3, p {
     justify-content: center;
     height: 100%; /* Ensure the container has a height */
 }
+
+footer {
+  max-width: initial;
+  background-image: url(../images_mental_health/flower-bg.jpg);
+  opacity: 0.9;
+  border-radius: 2%;
+  margin-top: 50px;
+  padding: 20px
+}
